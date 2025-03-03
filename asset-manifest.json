@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Daniramdev/portofolio.git/static/css/main.87cf3d6a.css",
+    "main.js": "/Daniramdev/portofolio.git/static/js/main.c8271be6.js",
+    "index.html": "/Daniramdev/portofolio.git/index.html",
+    "main.87cf3d6a.css.map": "/Daniramdev/portofolio.git/static/css/main.87cf3d6a.css.map",
+    "main.c8271be6.js.map": "/Daniramdev/portofolio.git/static/js/main.c8271be6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.87cf3d6a.css",
+    "static/js/main.c8271be6.js"
+  ]
+}
