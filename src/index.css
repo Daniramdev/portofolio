@@ -1,47 +1,43 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-/* src/index.css */
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 body {
   font-family: 'Poppins', sans-serif;
 }
 
-/* Default Styling */
 .hero {
-    background-size: auto; /* Background tidak menggunakan cover */
+    background-size: auto; 
     background-position: center;
     background-repeat: no-repeat;
   }
   
-  /* Media Query untuk Mode Mobile */
+
   @media (max-width: 768px) {
     .hero {
-      background-size: cover; /* Gambar menutupi seluruh area di mobile */
+      background-size: cover; 
     }
   }
 
-/* Animasi teks bergerak dari kiri ke kanan */
 .moving-text {
     display: inline-block;
-    white-space: nowrap; /* Agar teks tidak pindah baris */
-    animation: moveText 20s linear infinite; /* Animasi berjalan selama 20 detik, linear, dan berulang terus-menerus */
+    white-space: nowrap; 
+    animation: moveText 20s linear infinite; 
   }
   
   @keyframes moveText {
     0% {
-      transform: translateX(0); /* Mulai dari posisi awal teks (di layar) */
+      transform: translateX(0); 
     }
     100% {
-      transform: translateX(40%); /* Berakhir ketika teks pertama sepenuhnya keluar dari layar */
+      transform: translateX(40%); 
     }
   }
 
 
  
-/
-
 .front {
   transform: translateZ(50px);
 }
@@ -105,16 +101,15 @@ body {
   animation: scrollRight 20s linear infinite;
 }
 
-/* Untuk browser WebKit (Chrome, Safari, Edge) */
+
 ::-webkit-scrollbar {
   width: 6px;
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: #141d4b; /* Warna thumb scrollbar */
-  border-radius: 4px;
+  background-color: #141d4b; 
 }
 
 ::-webkit-scrollbar-track {
-  background: transparent; /* Warna track scrollbar */
-}
+  background: transparent; }
+  

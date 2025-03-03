@@ -60,7 +60,7 @@ const HeroSection = () => {
       <section
         className="hero bg-center h-screen flex flex-col -mt-16  justify-center z-10 items-center text-center"
         style={{
-          backgroundImage: "url('./bg.png')",
+          backgroundImage: "url('/bg.png')",
        
           backgroundRepeat: "no-repeat",
           backgroundPosition: `center`, // Animasi background position
